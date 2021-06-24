@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS style sheet tag-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--unoriginal tab title-->
+    <title>Week 1 Homework</title>
+
+    <!--meta tags-->
+    <meta name="keywords" content= "HTML, CSS, VetsinTech, Pokemon">
+
+</head>
+<body>
+    <div class="flex-container" id="partitions">
+        <!--splits page into three-->
+
+        <!--part 1-->
+        <div class="section" style="width:300px; margin:0 auto;">
+            <h1>Follow Us on Social Media!</h1>
+            <ul>
+                <li><h2><img src="./images/facebook.png" alt="Facebook" width="30px"> <a href="https://www.facebook.com/veteransintech">Facebook</a></h2>
+                <li><h2><img src="./images/instagram.png" alt="Instagram" width="30px"> <a href="https://www.instagram.com/vetsintech.co/">"Instragram"</a></h2>
+                <!--Misspelled on purpose b/c of original mockup-->
+                <li><h2><img src="./images/twitter.png" alt="Twitter" width="30px"> <a href="https://twitter.com/VetsInTech">Twitter</a></h2>
+            </ul>
+            <img class="pic" src="./images/treeBranch.png" width="300px" alt="Tree Branch">
+        </div>
+
+        <!--part 2-->
+        <div class="section" style="width:300px; margin:0 auto;">
+            <img class="pic" src="./images/americanFlag.gif" alt="Tree Branch">
+            <br>
+            <h1 text-align="center">Contact Us!</h1>
+            <h2>You can reach us at:</h2>
+            <table>
+                <tr>
+                    <td><img src="./images/phone.png" width="30px" alt="phone"></td>
+                    <td> (555) 867-5309</td>
+                </tr>
+                <tr>
+                    <td><img src="./images/mail.png" width="30px" alt="email"></td>
+                    <td>bcunningham@vetsintech.co</td>
+                </tr>
+                <tr>
+                    <td><img src="./images/address.png" width="30px" alt="address"></td>
+                    <td>124 Conch St. <br> Bikini Bottom, Pacific Ocean</td>
+                </tr>
+                <tr>
+                    <td><img src="./images/web.png" width="30px" alt="website"></td>
+                    <td><a href="https://www.vetsintech.co">www.vetsintech.co</a></td>
+                </tr>
+            </table>
+               
+            <h2>Contact Form</h2>
+            <form action="mailto:s.d.rincon@gmail.com"> 
+                <!--I fully realize that using mailto is stupid and in actuality there'd be a PHP... 
+                however, this is already beyond the scope of this project anyway, so this is here
+                as a spaceholder-->
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">Name: </label>
+                        </td>
+                        <td>
+                            <input required type="text" id="name" name="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">E-Mail: </label>
+                        </td>
+                        <td>
+                            <input required type="text" id="email" name="email">
+                        </td>
+                    </tr>
+                    <tr>
+                </table><br>
+                            <label for="comments">Comments:</label>
+                            <br><br>
+                            <textarea id="comments" name="comments" rows="5" cols="40">Enter comments here!</textarea>
+                            <br><br>
+                            <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <!--part 3-->
+        <div class="section" style="width:300px; margin:0 auto;">
+            <img src="./images/vetsInTech.jpg" width="200px" alt="ViT Logo">
+            <br><br>
+            <div class="box">
+                <div>SILENT AUCTION</div>
+            </div>
+            <br>
+            <p><i>Join us for the annual VetsInTech Silent Auction!</i></p>
+            <p><strong>Date:</strong> 08/29/1997</p>
+            <p><strong>Time:</strong> 02:14 AM EST</p>
+            <br>
+            <img class="pic" src="./images/photosOnTable.png" alt="Photos on Table">
+        </div>
+    </div>
+      <br>
+
+      <!--some music, for funsies-->
+    <div class="footer">
+        <audio controls src="./music/pokemontheme.mp3" id="bonusmusic"> 
+        Your browser does not support this audio tag.
+        </audio>       
+    </div>
+<p style="font-variant: small-caps; font-weight: bold">&copy; 2021 VetsInTech. All rights reserved.</p>
+
+</body>
+</html>
